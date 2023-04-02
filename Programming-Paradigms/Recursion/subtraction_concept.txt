@@ -1,0 +1,4 @@
+n-- vs --n (not python)
+
+n--: will pass value of n first and then subtract it 
+--n: will subtract the value of n first and then pass its value

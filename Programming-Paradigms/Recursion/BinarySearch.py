@@ -13,6 +13,8 @@ def recursiveBS(arr, target, l, r):
 
 if __name__ == '__main__': 
     arr = [1,2,3,4,5]
-    print(recursiveBS(arr, 3, 0, len(arr)-1))
+    print(recursiveBS(arr, 1, 0, len(arr)-1))
+    print(1//2)
    
-    
+    # time complexity: O(log n)
+    # space complexity: O(log n)

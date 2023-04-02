@@ -10,8 +10,7 @@
 
 # Types of reccurence relations: 
 #   Linear reccurence relation -> Fibonacci (search space is reduced linearly)
-#   Divide and Conquer -> Binary Search (search space is divided by a factor)
-
+ 
 # Approaching a problem:
 #   1) Identify if you can break down the problem into smaller problems
 #   2) Write the recurrence relation if needed
