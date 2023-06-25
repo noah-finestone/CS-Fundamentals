@@ -1,6 +1,8 @@
+Recursion: A funciton calling itself. 
+
 Why recursion?: 
   1) It helps us in solving bigger/complex problems in a simple way 
-  2) You can convert recursive solutions into iterative solutions and vice versa
+  2) You can convert recursive solutions into iterative solutions (loops) and vice versa
   3) Space complexity is not constant because of recursive calls
   4) Helps us in breaking down bigger problems into smaller ones 
 
@@ -10,6 +12,8 @@ Two types of recursion:
 
 Types of reccurence relations: 
   Linear reccurence relation -> Fibonacci (search space is reduced linearly)
+  Nonlinear recurrence relations
+  Divide-and-conquer recurrence relations -> Binary Search (search space is reduced by a factor of 2 every iteration: T(n) = T(n/2) + c)
  
 Approaching a problem:
   1) Identify if you can break down the problem into smaller problems
@@ -23,3 +27,17 @@ Approaching a problem:
       (in the end you will come out of the main fxn)
 
 ### TIP ###:   DO NOT OVERTHINK!
+
+Recurrence Relation?
+A recurrence relation is a mathematical equation that defines a sequence or function recursively in terms of its previous terms.
+It describes the relationship between a term and one or more of its preceding terms in the sequence.
+In the context of computer science and algorithms, recurrence relations are commonly used to analyze the time complexity of 
+recursive algorithms. They express the time or space requirements of a problem in terms of smaller subproblems of the same type.
+
+A recurrence relation typically consists of two parts:
+  - Base case(s): These are the initial conditions or values for the sequence. They provide a starting point or termination condition for the recursion.
+  - Recursive case(s): These define how the sequence or function is computed based on previous terms. 
+  They express the relation between the current term and one or more preceding terms.
+
+By solving or analyzing a recurrence relation, you can determine the behavior and properties of the sequence or function it defines. 
+This information is useful for understanding the performance characteristics of recursive algorithms and designing efficient solutions.

@@ -6,7 +6,7 @@
 # 120 -> 5 * 20 -> 4 * 6 -> 3 * 2 -> 2 * 1
 
 def fact(n):
-    if n == 1:
+    if n <= 1:
         return 1
     return n * fact(n-1) # returning the fxn call!
 

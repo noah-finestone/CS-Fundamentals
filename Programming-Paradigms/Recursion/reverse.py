@@ -23,7 +23,7 @@ def rev1(n, reversed_num=0):
     reversed_num = (reversed_num * 10) + (n % 10)
     return rev1(n // 10, reversed_num)
 
-print(rev1(1234))
+#print(rev1(1234))
 
 # F(N, args) = (N%10) * (10^args-1) + F(N//10, args-1)
 
