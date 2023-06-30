@@ -27,6 +27,7 @@ Approaching a problem:
       (in the end you will come out of the main fxn)
 
 ### TIP ###:   DO NOT OVERTHINK!
+Important: Vairables -> 1. in Argument, 2. Return type, 3. body of fxn
 
 Recurrence Relation?
 A recurrence relation is a mathematical equation that defines a sequence or function recursively in terms of its previous terms.

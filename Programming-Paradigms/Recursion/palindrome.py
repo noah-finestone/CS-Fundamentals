@@ -1,3 +1,4 @@
+# with recursion 
 def is_palindrome(left: int, right: int, num: int) -> bool:
     if left >= right:
         return True
