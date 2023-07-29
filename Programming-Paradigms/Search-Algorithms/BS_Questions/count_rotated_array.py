@@ -4,7 +4,7 @@ def countRotatedArray(nums: List[int]) -> int:
     # find pivot 
     pivot = findPivot(nums)
     # if pivot not last el and pivot is a valid pivot, need to count the amount of numbers behind the pivot + 1
-    return pivot + 1  # Pivot is the last element or not a valid pivot, no rotation
+    return nums[pivot + 1]  # Pivot is the last element or not a valid pivot, no rotation
 
 def findPivot(nums):
     s = 0
@@ -23,7 +23,9 @@ def findPivot(nums):
             s = mid + 1
     return -1  
 
-nums = [15, 18, 19, 20, 21, 22]
-result = countRotatedArray(nums)
-print(result)  # Expected output: 2
+nums = [1]
+print(findPivot(nums))
+
+# result = countRotatedArray(nums)
+# print(result)  # Expected output: 2
 

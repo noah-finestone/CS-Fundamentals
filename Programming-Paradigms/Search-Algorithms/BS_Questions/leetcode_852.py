@@ -14,3 +14,5 @@ class Solution:
                 e = mid 
 
         return s
+    
+    [1, 2, 3, 5, 4, 2, 1]
