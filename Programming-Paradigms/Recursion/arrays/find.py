@@ -32,11 +32,12 @@ def findAllIndex2(arr: list, target: int, index: int) -> list:
     ansFromBelowCalls = findAllIndex2(arr, target, index+1)
     l.extend(ansFromBelowCalls)
     return l
-    
+
+
 
     
 if __name__ == '__main__': 
-    arr = [1,3,4,0,6,6]
+    arr = [1,3,6,0,6,6]
     target = 6
     # print(findAllIndex(arr, target, 0, []))
     print(findAllIndex2(arr,target,0))
