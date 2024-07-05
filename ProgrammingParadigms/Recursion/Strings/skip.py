@@ -1,4 +1,4 @@
-# skip letter 'a' in string 
+# skip letter 'a' in string usinf recursion
 
 def skip(new, old): 
     if len(old) == 0:
