@@ -1,5 +1,4 @@
 # Binary Search Tree
-# Height differnce between any two nodes must be <= 0
 # 
 # BST rule: smaller goes left, larger goes right.
 
