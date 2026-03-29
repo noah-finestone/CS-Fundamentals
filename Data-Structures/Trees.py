@@ -62,10 +62,10 @@
 # 2. Sequential -> using array 
 
 class Node:
-        def __init__(self, value: int, left=None, right=None):
-            self.value = value   # (1) Int value
-            self.left = left     # (2) Left child node
-            self.right = right   # (3) Right child node
+    def __init__(self, value: int, left=None, right=None):
+        self.value = value   # (1) Int value
+        self.left = left     # (2) Left child node
+        self.right = right   # (3) Right child node
 
 class BinaryTree:
     def __init__(self, root_value: int = None):
