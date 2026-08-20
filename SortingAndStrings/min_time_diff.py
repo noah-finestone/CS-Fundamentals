@@ -13,7 +13,7 @@ def findMinDifference(timePoints):
 
     # O(nlogn)
     minutes.sort()
-
+ 
     # 4. Initialize min_diff with the wrap-around case
     # Example: "23:59" (1439) and "00:00" (0) -> (1440 + 0) - 1439 = 1
     min_diff = (1440 - minutes[0]) - minutes[-1]
